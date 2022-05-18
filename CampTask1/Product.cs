@@ -78,7 +78,7 @@ namespace CampTask1
         }
         public virtual void PrintInfo()
         {
-            Console.WriteLine($"Name: {Name}   |   Price: {Price}   |   Weight: {Weight}");            
+            Console.WriteLine($"Name: {Name}; Price: {Price}; Weight: {Weight}");            
         }
     }
 }
