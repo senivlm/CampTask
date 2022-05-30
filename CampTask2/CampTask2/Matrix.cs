@@ -23,7 +23,7 @@ namespace CampTask2
                 FillByDiagonalSnake2();
             }
             else
-            {
+            {// де перехоплюється цей виняток?
                 throw new Exception("Choose right option!");
             }
         }
