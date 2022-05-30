@@ -77,7 +77,7 @@ namespace CampTask2
                     array[r] = i;
                 }
                 else
-                {
+                {//Незрозуміла логіка
                     for (int j = r + 1; j < r + arrayLength; j++)
                     {
                         if (array[j % arrayLength] == 0)
@@ -140,7 +140,7 @@ namespace CampTask2
             return output;
         }
         public bool IsPalindrome()
-        {
+        {// тут достатньо одного індекса, який рухається до половини масиву.
             for (int firstElem = 0, lastElem = array.Length - 1; firstElem < lastElem; firstElem++, lastElem--)
             {
                 if (array[firstElem] != array[lastElem])
